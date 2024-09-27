@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webmuse</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="./images/logo.svg" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Projects</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
+                        <h3 class="s-intro__content-title">
+                        I'm Sakshi Jaiswal <br>
+                        a software developer
+                        </h3>
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
+                        </div> <!-- s-intro__content-btns -->
+
+                    </div> <!-- s-intro__content-text -->
+                    
+                </div> <!-- s-intro__content-inner -->
+            </div> <!-- s-intro__content -->
+
+            <ul class="s-intro__social social-list">
+                <li>
+                    <a href="https://www.linkedin.com/in/sakshi-jaiswal-a83301279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M19 0h-14C2.014 0 0 2.014 0 4.5v15C0 21.986 2.014 24 4.5 24h15c2.486 0 4.5-2.014 4.5-4.5v-15C24 2.014 21.986 0 19 0zm-11.013 20h-3v-10h3v10zm-1.5-11.5c-.966 0-1.75-.784-1.75-1.75S6.521 5 7.487 5c.966 0 1.75.784 1.75 1.75S8.453 8.5 7.487 8.5zm13.013 11.5h-3v-5.5c0-1.308-.025-3-1.832-3-1.831 0-2.113 1.432-2.113 2.906v5.594h-3v-10h3v1.412c1.033-1.825 3.237-3.058 5.143-3.058 5.512 0 6.037 3.643 6.037 8.409v3.637z"></path></svg>
+                        <span class="u-screen-reader-text">LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Sakshijazz">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M12 .296c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.388.6.111.793-.26.793-.577 0-.284-.011-1.234-.017-2.25-3.338.725-4.04-1.607-4.04-1.607-.546-1.387-1.333-1.758-1.333-1.758-1.087-.743.083-.728.083-.728 1.204.084 1.836 1.237 1.836 1.237 1.068 1.831 2.805 1.303 3.49.996.109-.774.418-1.303.762-1.603-2.665-.303-5.467-1.334-5.467-5.933 0-1.312.469-2.384 1.239-3.219-.124-.303-.537-1.527.116-3.176 0 0 1.007-.322 3.302 1.228.957-.266 1.987-.398 3.006-.403 1.019.005 2.049.137 3.006.403 2.295-1.55 3.302-1.228 3.302-1.228.654 1.649.241 2.873.118 3.176.77.835 1.239 1.907 1.239 3.219 0 4.606-2.804 5.627-5.467 5.933.43.37.815 1.099.815 2.213 0 1.598-.014 2.887-.014 3.277 0 .318.192.693.8.576C20.563 22.095 24 17.596 24 12.296c0-6.627-5.373-12-12-12z"></path></svg>
+                        <span class="u-screen-reader-text">GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sakshijazzwal8248@gmail.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M12 13.5l-8.5-6h17z" opacity=".3"/><path d="M12 13.5l8.5-6H3.5z" opacity=".3"/><path d="M12 13.5L3.5 7h17L12 13.5zM3 4h18c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v12h18V6H3z"/></svg>
+                        <span class="u-screen-reader-text">Email</span>
+                    </a>
+                </li>
+            </ul> <!-- end s-intro__social -->
+
+            <!-- background image -->
+            <div class="s-intro__content-media">
+                <img src="./images/sakshijazz.jpg" srcset="images/sakshijazz.jpg 1x, images/sakshijazz.jpg 2x" alt="">
+            </div> <!-- s-intro__content-media -->
+
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="CV.html" target="_blank">Get My CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)
+                        "><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                        Hi, I’m Sakshi Jaiswal, a passionate full-stack developer currently in my 3rd year of Computer Science and Design.
+                        I specialize in both frontend and backend technologies, crafting seamless user experiences while maintaining a keen eye for design and functionality.
+                        One of my notable projects, StylSync, aims to tackle challenges in the fashion industry by enhancing designer visibility and consumer accessibility.
+                        I am dedicated to leveraging technology to solve real-world problems and foster collaboration and innovation within the fashion ecosystem.                    </p>
+
+                    <p class="attention-getter">
+                        When I’m not coding, you’ll often find me playing the guitar, which helps me unwind and fuel my creativity.
+                        I’m always brainstorming new ideas and exploring ways to integrate technology into everyday life.
+                        The future of tech excites me, and I’m eager to contribute to its evolution in meaningful ways.                    </p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <!-- <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Spotify
+                                    <span>Product Designer</span>
+                                </li>
+                                <li>
+                                    Dropbox
+                                    <span>Interface Developer</span>
+                                </li>
+                                <li>
+                                    Google
+                                    <span>Lead UI Designer</span>
+                                </li>
+                                <li>
+                                    Figma
+                                    <span>UI Designer</span>
+                                </li>
+                                <li>
+                                    Microsoft
+                                    <span>UI Designer</span>
+                                </li>
+                            </ul>
+                        </div> end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Achievements</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Project Expo- StylSync App
+                                        <span>Cash Prize & Certificate(1st Position)— 2024</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        MIT(Bengaluru)- International Conference
+                                        <span>Certificate — 2024</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    Frontend
+                                    <span>HTML, CSS, JavaScript, Figma(For Design)</span>
+                                </li>
+                                <li>
+                                    Backend
+                                    <span>Java, MySQL</span>
+                                </li>
+                                <li>
+                                    Frameworks
+                                    <span>Bootstrap, ReactJS</span>
+                                </li>
+                                <li>
+                                    Languages
+                                    <span>Java, C Programming, JavaScript</span>
+                                </li>
+                                <li>
+                                    Tools
+                                    <span>Figma</span>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->
+
+
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Projects Done.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-turban.jpg" class="entry__link glightbox" data-glightbox="title: White Knit Cap; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/folio/white_turban.jpg" srcset="images/folio/white_turban.jpg 1x, images/folio/white_turban@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">StylSync</h4>
+                            <div class="entry__cat">Frontend Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-woodcraft.jpg" class="entry__link glightbox" data-glightbox="title: WoodCraft; description: .entry__desc-02">
+                        <div class="entry__thumb">
+                            <img src="images/folio/woodcraft.jpg" srcset="images/folio/woodcraft.jpg 1x, images/folio/woodcraft@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">WoodCraft</h4>
+                            <div class="entry__cat">Product Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-02">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-tulips.jpg" class="entry__link glightbox" data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
+                        <div class="entry__thumb">
+                            <img src="images/folio/caffeine_and_tulips.jpg" srcset="images/folio/caffeine_and_tulips.jpg 1x, images/folio/caffeine_and_tulips@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Caffeine & Tulips</h4>
+                            <div class="entry__cat">Brand Identity</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-03">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-grayscale.jpg" class="entry__link glightbox" data-glightbox="title: Grayscale; description: .entry__desc-04">
+                        <div class="entry__thumb">
+                            <img src="images/folio/grayscale.jpg" srcset="images/folio/grayscale.jpg 1x, images/folio/grayscale@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Grayscale</h4>
+                            <div class="entry__cat">Product Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-04">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-lamp.jpg" class="entry__link glightbox" data-glightbox="title: The Lamp; description: .entry__desc-05">
+                        <div class="entry__thumb">
+                            <img src="images/folio/lamp.jpg" srcset="images/folio/lamp.jpg 1x, images/folio/lamp@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">The Lamp</h4>
+                            <div class="entry__cat">Brand Identity</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-05">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-tropical.jpg" class="entry__link glightbox" data-glightbox="title: Tropical; description: .entry__desc-06">
+                        <div class="entry__thumb">
+                            <img src="images/folio/tropical.jpg" srcset="images/folio/tropical.jpg 1x, images/folio/tropical@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Tropical</h4>
+                            <div class="entry__cat">Frontend Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-06">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+            </div> <!-- folio entries -->
+
+
+            <div class="row s-testimonials">
+                <div class="column xl-12">
+                    <h3 class="s-testimonials__header" style="font-size: 50px;" >My Certificates</h3>
+            
+                    <div class="swiper-container s-testimonials__slider">
+                        <div class="swiper-wrapper">
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">Project Expo</h5>
+                                        <span class="d-block text-center">StylSync App</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Awarded 1st prize for the StylSync App, a pioneering platform aimed at transforming the fashion industry by enhancing designer visibility, consumer access, and business collaboration.
+                                    The app was recognized for its innovative use of technology to address real-world challenges within the fashion ecosystem, offering solutions that promote creativity, accessibility, and growth.
+                                </p>
+                                <a href="./images/StylSync-ProjectExpo.jpg" target="_blank">
+                                    <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                        View Certificate
+                                    </button>
+                                </a>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">MIT Bangalore International Conference</h5>
+                                        <span class="d-block text-center">Gen AI</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Attended the MIT Bangalore International Conference on Generative AI, gaining insights into the latest advancements in AI technologies.
+                                    Awarded a participation certificate for engaging in discussions on AI innovations and their real-world impact.
+                                </p>
+                                <div style="padding-top: 66px;">
+                                    <a href="./images/MIT-Bengaluru.jpg" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">NPTEL</h5>
+                                        <span class="d-block text-center">Soft Skills</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Recognized for completing the NPTEL course on Soft Skills, which focused on enhancing communication, leadership, teamwork, and interpersonal skills.
+                                    The course provided practical insights into effective communication strategies, conflict resolution, and building professional relationships, essential for career growth in any industry.
+                                </p>
+                                <div style="padding-top: 63px;">
+                                    <a href="./images/NPTEL(SoftSkills).jpg" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">NPTEL</h5>
+                                        <span class="d-block text-center">Internet of Things</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Awarded certification for successfully completing the NPTEL course on Internet of Things (IoT). This course provided an understanding of IoT architecture, protocols, and applications.
+                                    The certification underscores expertise in leveraging IoT technology to design smart, connected solutions for various industries.
+                                </p>
+                                <div style="padding-top: 60px;">
+                                    <a href="./images/NPTEL (IOT).PNG" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <!-- New slides added below -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">Octanet Internship</h5>
+                                        <span class="d-block text-center">Web Development</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Certified for completion of the Octanet Internship Program project, gaining hands-on experience in Web Development.
+                                    The project provided valuable insights into real-world applications, collaboration within a professional environment, and the use of cutting-edge technologies to solve practical problems.
+                                </p>
+                                <div style="padding-top: 60px;">
+                                    <a href="./images/OctanetInternship.PNG" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">Paper Presentation</h5>
+                                        <span class="d-block text-center">Metaverse</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Awarded for presenting the research paper "Exploring the Metaverse: Opportunities and Challenges," recognized for its innovative insights and potential real-world applications in virtual and augmented reality.
+                                    The presentation showcased a strong grasp of emerging digital technologies.
+                                </p>
+                                <div style="padding-top: 90px;">
+                                    <a href="./images/PaperPresentation.jpg" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">IIT Bombay</h5>
+                                        <span class="d-block text-center">Java Training</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Completed Java training with a score of 72.50%, accredited by the Spoken Tutorial Project, IIT Bombay.
+                                    The certification awarded 4 credits for demonstrating solid understanding of Java programming, covering core concepts and practical implementations.
+                                </p>
+                                <div style="padding-top: 90px;">
+                                    <a href="./images/Java Training.PNG" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">EdVedha Internship</h5>
+                                        <span class="d-block text-center">Flutter Development</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Successfully completed a Flutter development internship with EdVedha in Hyderabad. Gained hands-on experience in building cross-platform mobile applications using Flutter, contributing to real-world projects and enhancing skills in mobile app development.
+                                    Awarded a certificate for the successful completion of the internship.
+                                </p>
+                                <div style="padding-top: 25px;">
+                                    <a href="./images/FlutterInternship.PNG" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">Flipkart Runway Season 4</h5>
+                                        <span class="d-block text-center">Online Quiz</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Participated in the online quiz for Flipkart Runway Season 4, showcasing knowledge and enthusiasm for fashion and e-commerce.
+                                    Awarded a participation certificate for engaging in this competitive event, further enhancing skills and understanding of the industry.
+                                </p>
+                                <div style="padding-top: 85px;">
+                                    <a href="./images/Flipkart (Partition).PNG" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="head">
+                                    <cite class="s-testimonials__cite">
+                                        <h5 class="d-block text-center">Amrita College</h5>
+                                        <span class="d-block text-center">Blockchain and Decentralized Applications Workshop</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                    Attended a workshop on Blockchain and Decentralized Applications held at Amrita College, Coimbatore.
+                                    Awarded a certificate for participation, gaining valuable insights into blockchain technology and its applications, enhancing understanding of this emerging field.
+                                </p>
+                                <div style="padding-top: 70px;">
+                                    <a href="./images/Amirta-Workshop.jpg" target="_blank">
+                                        <button type="button" class="btn btn--primary btn--large" style="color: white;">
+                                            View Certificate
+                                        </button>
+                                    </a>
+                                </div>
+                            </div> <!-- end s-testimonials__slide -->
+                            
+                        </div> <!-- end swiper-wrapper -->
+            
+                        <div class="swiper-pagination"></div>
+            
+                    </div> <!-- end swiper-container -->
+            
+                </div> <!-- end column -->
+            </div> <!-- end s-testimonials -->
+            
+            
+
+        </section> <!-- end s-works -->
+
+
+        <!-- # numbers
+        ================================================== -->
+        <section id="numbers" class="s-numbers">
+
+            <div class="row counter-items">
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        30
+                        <span>+</span>
+                    </div>
+                    <h5>Solved Leetcode</h5>
+                    <p>
+                        I actively solve LeetCode problems to enhance my coding skills and understanding of algorithms and data structures.
+                        Tackling challenges across different topics like dynamic programming, sorting, and graphs has improved my problem-solving abilities and code optimization.
+                        This practice keeps me sharp and industry-ready.
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        5
+                        <span></span>
+                    </div>
+                    <h5>Projects Completed</h5>
+                    <p>
+                        Completing various projects has helped me apply theoretical knowledge to practical scenarios, strengthening my problem-solving abilities and technical skills.
+                        These projects, ranging from web development to backend systems, have given me experience in working with different technologies and tools.
+                        Each project has contributed to my growth, honing my ability to manage tasks efficiently, collaborate, and deliver high-quality solutions.
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        10
+                        <span>+</span>
+                    </div>
+                    <h5>Certifications</h5>
+                    <p>
+                        Certifications play a vital role in showcasing my knowledge and skills in specific areas.
+                        They demonstrate my commitment to learning and staying updated with industry trends.
+                        Earning certifications allows me to gain hands-on experience, validate my expertise, and enhance my professional credibility.
+                        These achievements reflect my readiness to take on real-world challenges and contribute effectively to projects.
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        2
+                        <span></span>
+                    </div>
+                    <h5>Research Paper</h5>
+                    <p>
+                        My research paper explores predicting ergonomic deficiencies using a fuzzy expert system and computer vision.
+                        It analyzes factors like neck angle, duration of posture, and strain to enhance user comfort and safety.
+                        By leveraging technology, the study aims to improve ergonomic practices and health outcomes in various settings.
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+            </div>  <!-- end counter-items -->
+
+        </section> <!-- end s-numbers -->
+
+
+        <!-- # footer
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="03">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">
+                    <p class="attention-getter">
+                        I’m always excited to collaborate on new projects, whether it’s web development, innovative tech solutions, or freelance work.
+                        If you’re interested in working together or just want to chat, feel free to drop me a message.
+                        Let’s create something amazing!
+                    </p>
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="#0">LinkedIn</a></li>
+                                <li><a href="#0">GitHub</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:#0">sakshijazzwal8248@gmil.com</a></li>
+                                <li><a href="tel:+1975432345">+91 6382818997</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+            <div class="row s-footer__buttons">
+
+                <!-- <div class="column xl-6 tab-12">
+                    <form action="mailto:webmusetechno@gmail.com" method="post" enctype="text/plain">
+                        <label for="name" style="color: white;">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" style="color: white;">
+                        
+                        <label for="email" style="color: white;">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" style="color: white;">
+                        
+                        <label for="message" style="color: white;">Your Message:</label>
+                        <textarea id="message" name="message" placeholder="Write your message here" rows="4" style="color: white;"></textarea>
+                        
+                        <button type="submit" class="btn btn--primary btn--large u-fullwidth">Submit</button>
+                    </form>
+                </div> -->
+                
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+
+                <div class="column xl-6 tab-12">
+                    <a href="CV.html" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->
+            
+            <div class="row s-footer__bottom">
+                
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M19 0h-14C2.014 0 0 2.014 0 4.5v15C0 21.986 2.014 24 4.5 24h15c2.486 0 4.5-2.014 4.5-4.5v-15C24 2.014 21.986 0 19 0zm-11.013 20h-3v-10h3v10zm-1.5-11.5c-.966 0-1.75-.784-1.75-1.75S6.521 5 7.487 5c.966 0 1.75.784 1.75 1.75S8.453 8.5 7.487 8.5zm13.013 11.5h-3v-5.5c0-1.308-.025-3-1.832-3-1.831 0-2.113 1.432-2.113 2.906v5.594h-3v-10h3v1.412c1.033-1.825 3.237-3.058 5.143-3.058 5.512 0 6.037 3.643 6.037 8.409v3.637z"></path></svg>
+                                <span class="u-screen-reader-text">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M12 .296c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.388.6.111.793-.26.793-.577 0-.284-.011-1.234-.017-2.25-3.338.725-4.04-1.607-4.04-1.607-.546-1.387-1.333-1.758-1.333-1.758-1.087-.743.083-.728.083-.728 1.204.084 1.836 1.237 1.836 1.237 1.068 1.831 2.805 1.303 3.49.996.109-.774.418-1.303.762-1.603-2.665-.303-5.467-1.334-5.467-5.933 0-1.312.469-2.384 1.239-3.219-.124-.303-.537-1.527.116-3.176 0 0 1.007-.322 3.302 1.228.957-.266 1.987-.398 3.006-.403 1.019.005 2.049.137 3.006.403 2.295-1.55 3.302-1.228 3.302-1.228.654 1.649.241 2.873.118 3.176.77.835 1.239 1.907 1.239 3.219 0 4.606-2.804 5.627-5.467 5.933.43.37.815 1.099.815 2.213 0 1.598-.014 2.887-.014 3.277 0 .318.192.693.8.576C20.563 22.095 24 17.596 24 12.296c0-6.627-5.373-12-12-12z"></path></svg>
+                                <span class="u-screen-reader-text">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M12 13.5l-8.5-6h17z" opacity=".3"/><path d="M12 13.5l8.5-6H3.5z" opacity=".3"/><path d="M12 13.5L3.5 7h17L12 13.5zM3 4h18c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v12h18V6H3z"/></svg>
+                                <span class="u-screen-reader-text">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- end section-footer__social -->
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Webmuse 2024</span>
+                        <!-- <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></span> -->
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>
+                <!-- <span?>Back To Top</span> -->
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
